@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Staff/Desktop/Magiya_core_web/src/test/java">
+        <classes>
+            <class name="Create_users.usercreate">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="signup_shift"/>
+                    <include name="signup"/>
+                    <include name="Create_user"/>
+                    <include name="submit"/>
+                    <include name="End"/>
+                </methods>
+            </class>
+            <class name="Create_users.usercreate_fake">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="signup_shift"/>
+                    <include name="signup"/>
+                    <include name="Create_user"/>
+                    <include name="submit"/>
+                    <include name="End"/>
+                </methods>
+            </class>
+
+            <class name="Booking_ticket.booking_Multiple_seat">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="signup_shift"/>
+                    <include name="Loging"/>
+                    <include name="submit"/>
+                    <include name="journy"/>
+                    <include name="select"/>
+                    <include name="select_Seat"/>
+                    <include name="payment"/>
+                    <include name="End"/>
+                </methods>
+            </class>
+            <class name="Booking_ticket.booking_one_seat">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="signup_shift"/>
+                    <include name="Loging"/>
+                    <include name="submit"/>
+                    <include name="journy"/>
+                    <include name="select"/>
+                    <include name="select_Seat"/>
+                    <include name="payment"/>
+                    <include name="End"/>
+                </methods>
+            </class>
+            <class name="Booking_ticket.dayChange">
+                <methods>
+                    <include name="SetupBrowserTest"/>
+                    <include name="signup_shift"/>
+                    <include name="Loging"/>
+                    <include name="submit"/>
+                    <include name="journy"/>
+                    <include name="select"/>
+                    <include name="select_Seat"/>
+                    <include name="payment"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
